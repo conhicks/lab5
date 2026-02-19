@@ -4,7 +4,7 @@ import json
 from openai import OpenAI
 
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
-WEATHER_KEY = st.secrets["OPENWEATHER_API_KEY"]
+WEATHER_KEY = st.secrets["dba20ac98e6c99060a8aa8874ed59df9"]
 
 def get_current_weather(location, units="imperial"):
     url = (
